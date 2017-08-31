@@ -30,6 +30,7 @@ com\example\MathCalculator.class
 com\bms\exception\OfferException.class
 com\bms\exception\DuplicateDataException.class
 com\bms\dao\BranchRowMapper.class
+com\Phone.class
 com\bms\exception\CustomerDoesNotExistException.class
 com\ibm\data\resource\ProductManager.class
 com\bms\exception\DateFormatException.class
