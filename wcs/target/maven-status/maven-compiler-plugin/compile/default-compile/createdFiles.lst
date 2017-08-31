@@ -4,10 +4,12 @@ com\bms\exception\NoRecordFoundException.class
 com\example\Main.class
 com\ibm\data\resource\Product.class
 com\example\jdbc\UserDAO.class
+com\TestInheritance.class
 com\bms\exception\AddressException.class
 com\bms\dao\BankDAO.class
 com\bms\exception\InsertFailedException.class
 com\bms\service\SearchService.class
+com\bms\controller\TestController.class
 com\bms\dao\AddressDAO.class
 com\ibm\amex\Main.class
 com\bms\service\BankService.class
@@ -15,6 +17,7 @@ com\bms\dao\TransactionDAO.class
 com\bms\dao\CustomerDAO.class
 com\bms\controller\TransactionController.class
 com\example\exception\ProductNotInCartException.class
+com\A.class
 com\bms\controller\BranchController.class
 com\bms\model\Offer.class
 com\bms\exception\CustomerException.class
@@ -36,6 +39,7 @@ com\ibm\data\resource\ProductManager.class
 com\bms\exception\DateFormatException.class
 com\bms\controller\CustomerController.class
 com\bms\dao\OfferRowMapper.class
+com\B.class
 com\bms\service\OfferService.class
 com\bms\dao\BranchDAO.class
 com\bms\controller\SearchController.class
