@@ -87,6 +87,57 @@ public class ShoppingCartTest {
 		assertEquals(51000.00, shoppingCart.totalPrice(),2);
 	}
 	
+	@Test
+	public void checkForTotalPrice_3(){
+
+		Product laptop = new Product(100, "Lenovo Laptop", 5000.00, 1);
+		Product watch = new Product(101, "Rolax Watch", 10000.00, 1);
+		Product mobile = new Product(102, "Samsung Mobile", 8000.00, 1);
+		
+		shoppingCart.addItem(laptop);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(mobile);
+		shoppingCart.addItem(mobile);
+		
+		assertEquals(51000.00, shoppingCart.totalPrice(),2);
+	}
+	
+	@Test
+	public void checkForTotalPrice_1(){
+
+		Product laptop = new Product(100, "Lenovo Laptop", 5000.00, 1);
+		Product watch = new Product(101, "Rolax Watch", 10000.00, 1);
+		Product mobile = new Product(102, "Samsung Mobile", 8000.00, 1);
+		
+		shoppingCart.addItem(laptop);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(mobile);
+		shoppingCart.addItem(mobile);
+		
+		assertEquals(51000.00, shoppingCart.totalPrice(),2);
+	}
+	
+	@Test
+	public void checkForTotalPrice_2(){
+
+		Product laptop = new Product(100, "Lenovo Laptop", 5000.00, 1);
+		Product watch = new Product(101, "Rolax Watch", 10000.00, 1);
+		Product mobile = new Product(102, "Samsung Mobile", 8000.00, 1);
+		
+		shoppingCart.addItem(laptop);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(watch);
+		shoppingCart.addItem(mobile);
+		shoppingCart.addItem(mobile);
+		
+		assertEquals(51000.00, shoppingCart.totalPrice(),2);
+	}
+	
 
 	@Test
 	public void purchaseManyItems(){
