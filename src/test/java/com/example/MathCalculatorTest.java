@@ -73,6 +73,17 @@ public class MathCalculatorTest {
 		}
 	}
 	
+
+	@Test
+	public void divideOddTwoNumbes(){
+		try {
+			int rs = calculator.divide(45,5);
+			Assert.assertEquals(9, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	@Test
 	public void divTwoNumbers(){
 		try {
