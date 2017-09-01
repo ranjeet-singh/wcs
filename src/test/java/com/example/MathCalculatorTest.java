@@ -137,6 +137,12 @@ public class MathCalculatorTest {
 		int rs = calculator.sum(10, 10);
 		Assert.assertEquals(20, rs);
 	}
+	
+	@Test
+	public void addFaviourtNumbers(){
+		int rs = calculator.sum(1000, 20);
+		Assert.assertEquals(1020, rs);
+	}
 
 	//SLA testing
 	@Test(timeout=5000)
