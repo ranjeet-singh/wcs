@@ -41,6 +41,19 @@ public class ShoppingCartTest {
 		
 		shoppingCart.removeItem(105);
 	}
+	
+	
+	@Test(expected=ProductNotInCartException.class)
+	public void removeNonExistProductFromCart() throws ProductNotInCartException{
+
+		Product laptop = new Product(100, "Lenovo Laptop", 5000.00, 1);
+		Product watch = new Product(101, "Rolax Watch", 10000.00, 1);
+		
+		shoppingCart.addItem(laptop);
+		shoppingCart.addItem(watch);
+		
+		shoppingCart.removeItem(105);
+	}
 
 
 	@Test
