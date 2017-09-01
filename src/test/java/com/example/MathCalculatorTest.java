@@ -186,4 +186,9 @@ public class MathCalculatorTest {
 		calculator.sum(10, 5);
 	}
 
+	//SLA testing
+	@Test(timeout=5000)
+	public void addingShouldTakeLessThenFiveSeconds(){
+		calculator.sum(10, 5);
+	}
 }

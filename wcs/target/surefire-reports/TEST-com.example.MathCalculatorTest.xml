@@ -68,9 +68,9 @@
   <testcase time="0" classname="com.example.MathCalculatorTest" name="subtractTwoNumbers"/>
   <testcase time="0" classname="com.example.MathCalculatorTest" name="divideTwoNumbers"/>
   <testcase time="0" classname="com.example.MathCalculatorTest" name="subtractTwoNegativeNumbers"/>
-  <testcase time="0.016" classname="com.example.MathCalculatorTest" name="addingNumbersShouldTakeLessThenFiveSeconds"/>
+  <testcase time="0" classname="com.example.MathCalculatorTest" name="addingNumbersShouldTakeLessThenFiveSeconds"/>
   <testcase time="0" classname="com.example.MathCalculatorTest" name="subtractPositiveNegativeNumber"/>
-  <testcase time="0" classname="com.example.MathCalculatorTest" name="addPositiveNegativeNumber"/>
+  <testcase time="0.016" classname="com.example.MathCalculatorTest" name="addPositiveNegativeNumber"/>
   <testcase time="0" classname="com.example.MathCalculatorTest" name="divideForException"/>
   <testcase time="0" classname="com.example.MathCalculatorTest" name="addTwoNegativeNumber"/>
 </testsuite>
