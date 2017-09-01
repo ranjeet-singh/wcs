@@ -133,6 +133,12 @@ public class MathCalculatorTest {
 		Assert.assertEquals(5, rs);
 	}
 
+	@Test
+	public void subtractTwoSameNumbers(){
+		int rs = calculator.diff(10, 10);
+		Assert.assertEquals(0, rs);
+	}
+
 
 	@Test
 	public void addTwoNegativeNumber(){
