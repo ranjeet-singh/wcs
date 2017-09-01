@@ -85,6 +85,16 @@ public class MathCalculatorTest {
 	}
 	
 	@Test
+	public void divideEVENTwoNumbes(){
+		try {
+			int rs = calculator.divide(10,2);
+			Assert.assertEquals(5, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
 	public void divTwoNumbers(){
 		try {
 			int rs = calculator.divide(50,2);
