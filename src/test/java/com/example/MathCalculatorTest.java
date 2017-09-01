@@ -52,6 +52,39 @@ public class MathCalculatorTest {
 		}
 	}
 	
+	
+	@Test
+	public void divideTwoNumbes(){
+		try {
+			int rs = calculator.divide(50,2);
+			Assert.assertEquals(25, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	@Test
+	public void divTwoNumbers(){
+		try {
+			int rs = calculator.divide(50,2);
+			Assert.assertEquals(25, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void divideNumbers(){
+		try {
+			int rs = calculator.divide(50,2);
+			Assert.assertEquals(25, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}		
+	
+	
 	@Test
 	public void subtractTwoNegativeNumbers(){
 		int rs = calculator.diff(-10, -5);

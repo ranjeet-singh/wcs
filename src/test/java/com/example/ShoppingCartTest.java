@@ -137,5 +137,16 @@ public class ShoppingCartTest {
 		assertTrue(laptop.getTitle().equals(product.getTitle()));
 		assertTrue(laptop.getId() == product.getId());
 	}
+	
+	
+	@Test
+	public void cartShouldNotHaveWrongItemAfterPurchases(){
+		Product laptop = new Product(100, "Lenovo Laptop", 15000.00, 1);
+		shoppingCart.addItem(laptop);
+		Collection<Product> products = shoppingCart.getItems();		
+		Product product = products.iterator().next();
+		assertTrue(laptop.getTitle().equals(product.getTitle()));
+		assertTrue(laptop.getId() == product.getId());
+	}
 
 }
