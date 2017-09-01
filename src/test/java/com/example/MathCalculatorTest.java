@@ -63,6 +63,15 @@ public class MathCalculatorTest {
 		}
 	}
 	
+	@Test
+	public void divideSameTwoNumbes(){
+		try {
+			int rs = calculator.divide(50,50);
+			Assert.assertEquals(1, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	@Test
 	public void divTwoNumbers(){
