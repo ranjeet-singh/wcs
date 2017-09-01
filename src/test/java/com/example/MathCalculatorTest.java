@@ -111,8 +111,8 @@ public class MathCalculatorTest {
 	}
 	
 	@Test
-	public void addPositiveNegativeNumber(){
-		Assert.assertEquals(5, calculator.sum(10, -5));
+	public void addSamePositiveNegativeNumber(){
+		Assert.assertEquals(-10, calculator.sum(-5, -5));
 	}
 	
 	@Test
@@ -120,7 +120,18 @@ public class MathCalculatorTest {
 		int rs = calculator.sum(10, 5);
 		Assert.assertEquals(15, rs);
 	}
+
+	@Test
+	public void addTwosNumbers(){
+		int rs = calculator.sum(10, 5);
+		Assert.assertEquals(15, rs);
+	}
 	
+	@Test
+	public void addTwoMyNumbers(){
+		int rs = calculator.sum(100, 50);
+		Assert.assertEquals(150, rs);
+	}
 	@Test
 	public void addTwoSameNumbers(){
 		int rs = calculator.sum(10, 10);
