@@ -31,6 +31,7 @@ C:\new_prj\wcs\wcs\src\main\java\com\bms\model\Account.java
 C:\new_prj\wcs\wcs\src\main\java\com\bms\dao\AddressRowMapper.java
 C:\new_prj\wcs\wcs\src\main\java\com\bms\model\Customer.java
 C:\new_prj\wcs\wcs\src\main\java\com\bms\service\AccountService.java
+C:\new_prj\wcs\wcs\src\main\java\com\bms\controller\TestController.java
 C:\new_prj\wcs\wcs\src\main\java\com\ibm\amex\CalculatorService.java
 C:\new_prj\wcs\wcs\src\main\java\com\bms\exception\AccountDoesNotExistException.java
 C:\new_prj\wcs\wcs\src\main\java\com\bms\controller\CustomerController.java

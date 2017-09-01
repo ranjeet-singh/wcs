@@ -77,6 +77,12 @@ public class MathCalculatorTest {
 		int rs = calculator.sum(10, 5);
 		Assert.assertEquals(15, rs);
 	}
+	
+	@Test
+	public void addTwoSameNumbers(){
+		int rs = calculator.sum(10, 10);
+		Assert.assertEquals(20, rs);
+	}
 
 	//SLA testing
 	@Test(timeout=5000)
