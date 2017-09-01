@@ -43,6 +43,16 @@ public class MathCalculatorTest {
 	}
 	
 	@Test
+	public void dividePositiveNegativeNumbers(){
+		try {
+			int rs = calculator.divide(-50,2);
+			Assert.assertEquals(-25, rs);
+		} catch (InvalidValueException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
 	public void subtractTwoNegativeNumbers(){
 		int rs = calculator.diff(-10, -5);
 		Assert.assertEquals(-5, rs);
