@@ -6,6 +6,7 @@ public class MathCalculator {
 	
 	public int sum(int a,int b){
 		System.out.println("Inside MathCalculator.sum(a,b)");
+		System.out.println("Inside MathCalculator.sum(a,b), a= "+ a + "b= " +b);
 		return a+b;
 	}
 
